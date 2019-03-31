@@ -1,0 +1,33 @@
+<svg width="40px" height="46px" viewBox="0 0 80 92" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="loading" transform="translate(-119.000000, -276.000000)" fill-rule="nonzero">
+            <g id="Group"
+               transform="translate(160.000000, 320.500000) rotate(11.000000) translate(-160.000000, -320.500000) translate(121.000000, 273.000000)">
+                <circle id="Oval" fill="#51C0FF" cx="46.9035211" cy="48.0513293" r="31"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="20.2363604" cy="47.1226001" r="2"></circle>
+                <path
+                        d="M90.5473108,76.122738 C90.5473108,54.031348 73.9167044,36.122738 53.4018118,36.122738 C37.1099423,36.122738 19.555806,50.944906 14.5473108,66.6592733"
+                        id="Oval" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="bevel"
+                        transform="translate(52.547311, 56.122738) scale(-1, 1) rotate(-90.000000) translate(-52.547311, -56.122738) ">
+                </path>
+                <path
+                        d="M52.608769,59.1531446 C47.5865689,45.1917301 35.2798031,35.3474617 20.8784269,35.3756688 C1.98591466,35.4126725 -13.3571338,52.425825 -13.391231,73.3756084"
+                        id="Oval" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="bevel"
+                        transform="translate(19.608769, 54.375608) rotate(-90.000000) translate(-19.608769, -54.375608) ">
+                </path>
+                <path
+                        d="M48.8251235,34.8795231 C46.6841022,29.7231037 41.4544185,26.0809482 35.3426197,26.0809482 C27.3248279,26.0809482 20.8251235,32.3489617 20.8251235,40.0809482"
+                        id="Oval" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="bevel"
+                        transform="translate(34.825124, 33.080948) scale(-1, 1) rotate(-90.000000) translate(-34.825124, -33.080948) ">
+                </path>
+                <path
+                        d="M31.5425424,18.6046424 C31.5425424,18.6046424 34.2316887,9.63732402 41.8894033,4.31438008 C49.5471179,-1.00856387 59.5425424,0.960822652 59.5425424,0.960822652 C59.5425424,0.960822652 56.2923351,9.23558716 50.0058919,13.196904 C43.7194487,17.1582208 31.5425424,18.6046424 31.5425424,18.6046424 Z"
+                        id="Path-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
