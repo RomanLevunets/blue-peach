@@ -1430,7 +1430,7 @@ section.active .s_info .helper-animation__content{
     right: 0;
     z-index: -1;
     transform: translateX(-101%);
-    transition: transform .3s ease-in-out;
+    transition: transform .6s ease-in-out;
 }
 .nav_links {
     z-index: 1;
@@ -1438,6 +1438,7 @@ section.active .s_info .helper-animation__content{
     padding-left: 7px;
     padding-right: 7px;
     overflow: hidden;
+    position: relative;
 }
 
 .line_add {
