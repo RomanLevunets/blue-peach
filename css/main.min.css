@@ -264,7 +264,7 @@ header ul li a:hover {
 }
 
 .container {
-    padding: 0 165px;
+    padding: 0 148px;
     margin: 0 160px 0 150px;
     position: relative;
     max-width: 800px
@@ -862,7 +862,7 @@ footer .footer_bot span {
 
 .slider_block {
     margin: 0 140px 0 150px;
-    padding: 0 165px;
+    padding: 0 148px;
     max-width: 800px
 }
 
@@ -1040,8 +1040,11 @@ footer .footer_bot span {
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
-    line-height: 3;
+    line-height: 1;
     letter-spacing: .5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #969696
 }
 
@@ -1051,12 +1054,15 @@ footer .footer_bot span {
     height: 50px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background-color: #f3f2f4
+    background-color: #f3f2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .back_home_header .back_home_btn svg {
     width: 18px;
-    padding: 16.5px;
+    height: 18px!important;
     fill: #2b2b31
 }
 
@@ -1532,7 +1538,13 @@ section.active .solution_el:nth-child(5){
     transform: translateX(0);
 }
 
-@media (min-width: 1599px) {
+@media (max-width: 1400px) {
+    header ul{
+        padding: 24px 0;
+    }
+    #Design_Process{
+        padding-top: 40px;
+    }
 }
 
 @media (max-width: 1120px) {
@@ -1551,6 +1563,27 @@ section.active .solution_el:nth-child(5){
 }
 
 @media (max-width: 992px) {
+    footer .footer_bot{
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .back_home_header{
+        margin: 0;
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .my_form{
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+    }
+    .s_TE{
+        padding-bottom: 50px;
+    }
     .sidebar_top .studio_name,
     .sidebar_top svg{
         display: none;
@@ -1602,13 +1635,25 @@ section.active .solution_el:nth-child(5){
         opacity: 0
     }
 
+    .mob_header .mob_close_btn a {
+        display: block;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .mob_header .mob_close_btn {
         width: 60px;
-        background-color: #f3f2f4
+        background-color: #f3f2f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .mob_header .mob_close_btn svg {
-        padding: 20px;
+        width: 16px;
+        height: 16px;
         fill: #2b2b31
     }
 
@@ -1794,7 +1839,7 @@ section.active .solution_el:nth-child(5){
 
     .container {
         max-width: 600px;
-        padding: 0 32px;
+        padding: 0 32px 0 80px;
         margin: 0 0 0 150px
     }
 
@@ -1922,7 +1967,8 @@ section.active .solution_el:nth-child(5){
     }
 
     footer .other_links {
-        padding-left: 45px
+        padding-left: 15px;
+        margin-left: 0;
     }
 
     footer .other_links .get_in a {
@@ -1931,6 +1977,20 @@ section.active .solution_el:nth-child(5){
 
     footer .other_links .get_in svg {
         margin-left: 14px
+    }
+    .back_home_header{
+        margin: 0;
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .my_form{
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+    }
+    .s_TE{
+        padding-bottom: 50px;
     }
 }
 
@@ -1944,15 +2004,16 @@ section.active .solution_el:nth-child(5){
     }
 
     .container {
-        max-width: 350px;
-        padding: 0 0 0 10px;
-        margin: 0 0 0 150px
+        max-width: 500px;
+        padding: 0 0 0 160px;
+        margin: 0;
     }
 
     .slider_block {
-        max-width: 350px;
+        width: 100%;
+        max-width: 500px;
         padding: 0 0 0 10px;
-        margin: 0 0 0 150px
+        margin: 0 0 0 0px
     }
 
     footer .other_links {
@@ -1991,8 +2052,63 @@ section.active .solution_el:nth-child(5){
     #arrow_down {
         top: 120px
     }
+
 }
 
+@media (max-width: 992px) {
+    .helper-description__animation,
+    .helper-name__animation,
+    .helper-title__animation{
+        display: none;
+    }
+    html{
+        scroll-behavior: unset;
+    }
+    .mob_menu_cont{
+        background-color: #2b2b31;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mob_menu .mob_menu_footer .get_in{
+        margin-bottom: 0;
+    }
+    #hello{
+        padding-top: 100px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container{
+        max-width: 100%;
+        padding-left: 15px;
+        margin-left: 0!important;
+    }
+    .section_text_block{
+        padding-right: 10%;
+    }
+    .slider_block{
+        padding-left: 15px;
+        margin-right: 0!important;
+    }
+}
+@media (max-width: 500px) {
+    .slider_block{
+        max-width: 320px;
+    }
+    #Projects{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #Design_Process{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #About{
+        padding-top: 20px;
+    }
+}
 @media (max-width: 426px) {
     .sidebar {
         display: none
@@ -2011,16 +2127,18 @@ section.active .solution_el:nth-child(5){
     }
 
     .container {
-        padding: 0 22px;
+        padding: 0 15px;
         margin: 0
     }
-
+    .section_text_block .s_h1{
+        font-size: 31px;
+    }
     .container .section_text_block {
         padding: 0
     }
 
     .slider_block {
-        padding: 0 2px 0 22px;
+        padding: 0 2px 0 15px;
         margin: 0;
         width: auto
     }
@@ -2143,19 +2261,12 @@ section.active .solution_el:nth-child(5){
         background-color: #f3f2f4
     }
 
-    .mob_header .mob_close_btn svg {
-        padding: 20px;
-        fill: #2b2b31
-    }
-
-
     .mob_dis_none {
         display: none
     }
 
     .my_form {
-        margin: 60px 62px 60px 22px;
-        padding: 0
+        padding-bottom: 50px;
     }
 
     .form-row {
@@ -2197,7 +2308,7 @@ section.active .solution_el:nth-child(5){
 
     .mob_get_in_touch_title {
         display: block;
-        padding: 0 22px
+        padding: 0 15px
     }
 
     .line_add {
