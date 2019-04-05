@@ -57,13 +57,6 @@ $(function () {
 		message: "",
 	}
 
-	document.getElementsByClassName('blue_btn')[0].addEventListener('click', function () {
-		if (form_val.name == "" || form_val.com_name == "" || form_val.email == "" || form_val.phone == "" || form_val.message == "") {
-			location.href = './error.html';
-		} else {
-			location.href = './thanks.html';
-		}
-	})
 
 });
 

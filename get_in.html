@@ -189,7 +189,7 @@
 				<span> Blue <span class="blue_font_color">Peach</span></span>
 			</div>
 			<div class="mob_close_btn">
-				<a href="./">
+				<a href="index.html">
 					<svg height="30px" viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
 						<line x1="1" y1="15" x2="15" y2="1" stroke="black" stroke-width="2" />
 						<line x1="1" y1="1" x2="15" y2="15" stroke="black" stroke-width="2" />
@@ -200,7 +200,7 @@
 		<div class="back_home_header">
 			<div class="get_in_touch_title">Get in touch</div>
 			<div class="back_home_link">
-				<a href="./">Back to home
+				<a href="index.html">Back to home
 					<div class="back_home_btn">
 						<svg height="30px" viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
 							<line x1="1" y1="15" x2="15" y2="1" stroke="black" stroke-width="2" />
@@ -215,39 +215,39 @@
 	<section class="s_TE">
 		<div class="get_in_touch_title mob_get_in_touch_title">Get in touch</div>
 		<div class="my_form">
-			<form action="">
+			<form action="" id="form_message" method="post">
 				<div class="input_container">
 					<div class="form-row">
-						<input pattern="[A-Za-z].{2,}" type="text" class="my_input" id="input1" placeholder="Name*"
+						<input pattern="[A-Za-z].{2,}" required type="text" class="my_input" id="input1" placeholder="Name"
 							onfocus="input_name(this)" />
-						<span id="name_l" class="label-helper">Name*</span>
+						<span id="name_l" class="label-helper">Name</span>
 						<label class="label-invalid in1"> Please fill out this field</label>
 					</div>
 					<div class="form-row">
-						<input pattern="[A-Za-z].{2,}" type="text" class="my_input" id="input2" placeholder="Company name*"
+						<input pattern="[A-Za-z].{2,}" required type="text" class="my_input" id="input2" placeholder="Company name"
 							onfocus="input_com_name(this)" />
-						<span id="com_name_l" class="label-helper" for="input1">Company name*</span>
+						<span id="com_name_l" class="label-helper" for="input1">Company name</span>
 						<label class="label-invalid in2"> Please fill out this field</label>
 					</div>
 					<div class="form-row">
-						<input type="email" class="my_input" id="input3" placeholder="Email*" onfocus="input_email(this)" />
-						<span id="email_l" class="label-helper">Email*</span>
+						<input type="email" required class="my_input" id="input3" placeholder="Email" onfocus="input_email(this)" />
+						<span id="email_l" class="label-helper">Email</span>
 						<label for="input2" class="label-invalid in3"> Please fill out this field</label>
 					</div>
 					<div class="form-row">
-						<input type="text" pattern=".{3,}" onkeypress='return event.charCode >= 48 && event.charCode <= 57'
-							class="my_input" id="input4" placeholder="Phone number*" onfocus="input_phone(this)" />
-						<span id="phone_l" class="label-helper" for="input3">Phone number*</span>
+						<input type="text" pattern=".{3,}"
+							class="my_input" required id="input4" placeholder="Phone number" onfocus="input_phone(this)" />
+						<span id="phone_l" class="label-helper" for="input3">Phone number</span>
 						<label class="label-invalid in4"> Please fill out this field</label>
 					</div>
 				</div>
 				<div class="form-row-textarea ">
-					<textarea minlength="5" type="textarea" class="my_input" id="input5" placeholder="Message*"
+					<textarea minlength="5" type="textarea" class="my_input" id="input5" placeholder="Message"
 						onfocus="input_message(this)"></textarea>
-					<span id="message_l" class="label-helper" for="input4">Message*</span>
+					<span id="message_l" class="label-helper" for="input4">Message</span>
 					<label class="label-invalid in5"> Please fill out this field</label>
 				</div>
-				<div class="blue_btn">Send a message</div>
+				<input type="submit" id="send_request" value="Send a message"></input>
 			</form>
 		</div>
 	</section>
@@ -401,8 +401,8 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 	<script src="libs/jquery/dist/jquery.min.js"></script>
-
 	<script src="js/formValidation.js"></script>
+	<script src="js/scripts.min.js"></script>
 
 
 </body>
